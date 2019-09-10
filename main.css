@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    transition: all .1s ease-in;
+}
+
+/*Header*/
+
+header {
+    width: 100%;
+    height: 118px;
+    background-color: #4a4f56;
+    color: #eb7e7f;
+    text-align: center;
+    
+}
+
+h1 {
+    padding-top: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+     margin-bottom: 10px;
+}
+
+h1 + span {
+    line-height: 20px;
+    font-size: 22px;
+}
+/*Header*/
+
+/*Main*/
+
+main {
+    height: 350px;
+    width: 100%;
+    background-color: #3b3f45;
+}
+
+article form {
+    margin-left: 370px;
+    padding-top: 40px;
+}
+
+form div label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #88839e;
+    width: 800px;
+    font-size: 22px;
+    color: #f9f9f4;
+}
+
+.nth {
+    background-color: #7a7593;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+ label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #dedede;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 3px;
+    
+}
+
+input[type="checkbox"]:checked + label::before {
+    content: "";
+    background-image: url(./img/tick-sign.png);
+    background-size: 100%;
+    
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
+
+label span {
+    color: #9fa0b5;
+    font-size: 15px;
+
+    vertical-align: middle;
+}
+
+label span::after {
+    content: " ) ";
+}
+label span::before {
+    content: " ( ";
+}
+
+label:hover {
+    background-color: #625e77;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+footer {
+    width: 100%;
+    height: 255px;
+    background-color: #3b3f45;
+}
+ footer span  {
+     display: inline-block;
+     margin-left: 370px;
+     text-align: center;
+     font-size: 22px;
+     color: #c25656;
+     background-color: #4a4f56;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 320px;
+    padding-right: 370px
+     
+ }
