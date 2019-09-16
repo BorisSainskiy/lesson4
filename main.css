@@ -104,6 +104,10 @@ label:hover {
     border-top: 3px solid white;
 }
 
+label:active {
+    background-color: #c25656;
+}
+
 footer {
     width: 100%;
     height: 255px;
