@@ -49,6 +49,9 @@ form div label {
     font-size: 22px;
     color: #f9f9f4;
 }
+label:nth-child(odd) {
+    background-color: #7a7593;
+}
 
 .nth {
     background-color: #7a7593;
@@ -85,7 +88,6 @@ input[type="checkbox"]:checked + label {
 label span {
     color: #9fa0b5;
     font-size: 15px;
-
     vertical-align: middle;
 }
 
