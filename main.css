@@ -1,9 +1,10 @@
-* {
-    margin: 0px;
-    font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
-    transition: all .1s ease-in;
-}
 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+   
+}
 /*Header*/
 #conteiner {
     width: 100%;
@@ -48,6 +49,7 @@ main {
 }
 
 form div label {
+    transition: all .1s ease-in;
     display: inline-block;
     padding: 10px;
     background-color: #88839e;
